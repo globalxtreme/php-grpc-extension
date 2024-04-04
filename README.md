@@ -1,4 +1,4 @@
-## gRPC for PHP 8.1 or above
+## gRPC for PHP 8.1
 
 Install grpc & protobuf with brew
 ```shell
