@@ -8,15 +8,18 @@ brew install protobuf
 
 Clone gRPC repository from github
 ```shell
-git clone globalxtreme/php-grpc-extension
+git clone https://github.com/globalxtreme/php-grpc-extension.git
 ```
 
 Add path of extension "grpc.so" to your php.ini
 ```ini
-#MAMP Pro
+# MAMP Pro
 zend_extension=/your/path/grpc/extension/grpc.so
 
-#XAMPP
+# MAMP Pro (in open template MAMP GUI)
+extension=/your/path/grpc/extension/grpc.so
+
+# XAMPP
 extension=/your/path/grpc/extension/grpc.so
 ```
 
